@@ -1,0 +1,59 @@
+/* Utility classes */
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-narrow {
+  @apply max-w-4xl mx-auto px-4;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-forest-900 to-forest-600 bg-clip-text text-transparent;
+}
+
+.text-gradient-gold {
+  @apply bg-gradient-to-r from-golden to-amber-500 bg-clip-text text-transparent;
+}
+
+.grain-overlay {
+  background-image: url('/textures/grain.png');
+  background-repeat: repeat;
+  opacity: 0.04;
+}
+
+.divider {
+  @apply w-16 h-1 bg-golden rounded-full;
+}
+
+.divider-center {
+  @apply mx-auto;
+}
+
+.scroll-mt-nav {
+  scroll-margin-top: 5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

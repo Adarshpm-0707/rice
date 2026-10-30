@@ -1,0 +1,48 @@
+/* Footer styles */
+.footer {
+  @apply bg-forest-950 text-cream/80;
+}
+
+.footer-top {
+  @apply py-12 md:py-16 border-b border-white/10;
+}
+
+.footer-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12;
+}
+
+.footer-brand {
+  @apply lg:col-span-1;
+}
+
+.footer-logo {
+  @apply font-display font-bold text-2xl text-cream mb-3;
+}
+
+.footer-tagline {
+  @apply text-cream/60 text-sm leading-relaxed mb-4;
+}
+
+.footer-heading {
+  @apply text-cream font-semibold text-sm uppercase tracking-widest mb-4;
+}
+
+.footer-link {
+  @apply text-cream/60 hover:text-golden transition-colors text-sm py-1 block;
+}
+
+.footer-bottom {
+  @apply py-6 flex flex-col sm:flex-row items-center justify-between gap-4;
+}
+
+.footer-copy {
+  @apply text-cream/40 text-sm;
+}
+
+.footer-contact-item {
+  @apply flex items-start gap-3 text-sm text-cream/70 mb-3;
+}
+
+.footer-contact-icon {
+  @apply w-4 h-4 text-golden mt-0.5 flex-shrink-0;
+}

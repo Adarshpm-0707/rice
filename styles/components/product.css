@@ -1,0 +1,76 @@
+/* Product component styles */
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.product-card-image-wrapper {
+  @apply relative overflow-hidden aspect-video bg-forest-50;
+}
+
+.product-card-img {
+  @apply w-full h-full object-cover transition-transform duration-500;
+}
+
+.product-card:hover .product-card-img {
+  transform: scale(1.05);
+}
+
+.product-card-overlay {
+  @apply absolute inset-0 bg-gradient-to-t from-forest-950/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 flex items-end;
+}
+
+.product-card:hover .product-card-overlay {
+  @apply opacity-100;
+}
+
+.product-filter-btn {
+  @apply px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 border;
+}
+
+.product-filter-btn-active {
+  @apply bg-forest-900 text-cream border-forest-900;
+}
+
+.product-filter-btn-inactive {
+  @apply bg-white text-charcoal border-gray-200 hover:border-forest-300 hover:text-forest-700;
+}
+
+.product-detail-specs {
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-3;
+}
+
+.product-spec-row {
+  @apply flex justify-between items-center py-2 border-b border-gray-100 text-sm;
+}
+
+.product-spec-label {
+  @apply text-gray-500 font-medium;
+}
+
+.product-spec-value {
+  @apply text-charcoal font-semibold text-right;
+}
+
+.product-badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase;
+}
+
+.product-badge-rice {
+  @apply bg-amber-100 text-amber-800;
+}
+
+.product-badge-sweeteners {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.product-badge-oils {
+  @apply bg-orange-100 text-orange-800;
+}
+
+.product-badge-spices {
+  @apply bg-red-100 text-red-800;
+}
+
+.product-badge-pulses {
+  @apply bg-green-100 text-green-800;
+}

@@ -1,0 +1,38 @@
+/* Base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-cream text-charcoal font-sans;
+  line-height: 1.6;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-forest-700;
+}
+
+::selection {
+  @apply bg-golden text-white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

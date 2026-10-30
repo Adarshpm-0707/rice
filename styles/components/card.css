@@ -1,0 +1,36 @@
+/* Card component styles */
+.card {
+  @apply bg-white rounded-2xl shadow-card transition-all duration-300;
+}
+
+.card-hover {
+  @apply card hover:shadow-hover hover:-translate-y-1;
+}
+
+.card-product {
+  @apply card-hover overflow-hidden border border-forest-50 cursor-pointer;
+}
+
+.card-service {
+  @apply card p-6 md:p-8 border border-forest-50 hover:shadow-hover hover:-translate-y-1 hover:border-forest-200;
+}
+
+.card-stat {
+  @apply bg-forest-900/10 rounded-2xl p-6 text-center;
+}
+
+.card-value {
+  @apply bg-cream border border-golden/20 rounded-2xl p-6 text-center hover:border-golden/50 transition-colors;
+}
+
+.card-body {
+  @apply p-5;
+}
+
+.card-image {
+  @apply w-full aspect-video object-cover;
+}
+
+.card-badge {
+  @apply absolute top-3 right-3;
+}

@@ -1,0 +1,57 @@
+/* Section component styles */
+.section {
+  @apply section-padding;
+}
+
+.section-cream {
+  @apply section bg-cream;
+}
+
+.section-white {
+  @apply section bg-white;
+}
+
+.section-forest {
+  @apply section bg-forest-900 text-cream;
+}
+
+.section-dark {
+  @apply section bg-charcoal text-cream;
+}
+
+.section-heading {
+  @apply font-display font-bold text-charcoal leading-tight;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+}
+
+.section-heading-light {
+  @apply section-heading text-cream;
+}
+
+.section-subheading {
+  @apply text-gray-500 text-lg leading-relaxed max-w-2xl;
+}
+
+.section-subheading-light {
+  @apply section-subheading text-cream/70;
+}
+
+.section-label {
+  @apply text-golden text-sm font-semibold uppercase tracking-widest;
+}
+
+.page-header {
+  @apply bg-forest-950 text-cream py-20 md:py-28 relative overflow-hidden;
+}
+
+.page-header-content {
+  @apply relative z-10;
+}
+
+.page-header-title {
+  @apply font-display font-bold text-4xl md:text-5xl lg:text-6xl text-cream mb-4;
+}
+
+.page-header-subtitle {
+  @apply text-cream/70 text-lg md:text-xl max-w-2xl;
+}

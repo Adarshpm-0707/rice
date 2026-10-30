@@ -1,0 +1,44 @@
+/* Button component styles */
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl font-semibold font-sans transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer select-none;
+}
+
+.btn-sm {
+  @apply px-4 py-2 text-sm;
+}
+
+.btn-md {
+  @apply px-6 py-3 text-base;
+}
+
+.btn-lg {
+  @apply px-8 py-4 text-lg;
+}
+
+.btn-primary {
+  @apply btn btn-md bg-forest-900 text-cream hover:bg-forest-800 active:bg-forest-950 shadow-md hover:shadow-hover focus-visible:outline-forest-700 hover:-translate-y-px;
+}
+
+.btn-secondary {
+  @apply btn btn-md bg-golden text-white hover:bg-amber-600 active:bg-amber-700 shadow-md hover:shadow-hover focus-visible:outline-golden hover:-translate-y-px;
+}
+
+.btn-outline {
+  @apply btn btn-md border-2 border-forest-900 text-forest-900 hover:bg-forest-900 hover:text-cream transition-colors;
+}
+
+.btn-outline-light {
+  @apply btn btn-md border-2 border-cream text-cream hover:bg-cream hover:text-forest-900 transition-colors;
+}
+
+.btn-ghost {
+  @apply btn btn-md text-forest-700 hover:bg-forest-50 hover:text-forest-900;
+}
+
+.btn-whatsapp {
+  @apply btn btn-md bg-green-500 text-white hover:bg-green-600 shadow-md hover:-translate-y-px;
+}
+
+.btn-icon {
+  @apply btn p-3 rounded-xl;
+}

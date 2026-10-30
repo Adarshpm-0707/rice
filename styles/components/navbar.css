@@ -1,0 +1,84 @@
+/* Navbar styles */
+.navbar {
+  @apply fixed top-0 left-0 right-0 z-50 transition-all duration-300;
+}
+
+.navbar-transparent {
+  @apply bg-transparent;
+}
+
+.navbar-solid {
+  @apply bg-white/95 backdrop-blur-md shadow-md;
+}
+
+.navbar-inner {
+  @apply flex items-center justify-between h-16 md:h-20;
+}
+
+.navbar-logo {
+  @apply font-display font-bold text-xl md:text-2xl leading-tight;
+}
+
+.navbar-logo-transparent {
+  @apply text-cream;
+}
+
+.navbar-logo-solid {
+  @apply text-forest-900;
+}
+
+.nav-links {
+  @apply hidden md:flex items-center gap-1;
+}
+
+.nav-link {
+  @apply px-4 py-2 rounded-lg font-medium text-sm transition-colors duration-200 relative;
+}
+
+.nav-link-transparent {
+  @apply text-cream/90 hover:text-cream hover:bg-white/10;
+}
+
+.nav-link-solid {
+  @apply text-charcoal hover:text-forest-900 hover:bg-forest-50;
+}
+
+.nav-link-active-transparent {
+  @apply text-golden font-semibold;
+}
+
+.nav-link-active-solid {
+  @apply text-forest-900 font-semibold bg-forest-50;
+}
+
+.navbar-cta {
+  @apply hidden md:flex;
+}
+
+.mobile-menu-btn {
+  @apply md:hidden p-2 rounded-lg transition-colors;
+}
+
+.mobile-menu {
+  @apply fixed inset-0 z-50 md:hidden;
+}
+
+.mobile-menu-overlay {
+  @apply absolute inset-0 bg-black/50 backdrop-blur-sm;
+}
+
+.mobile-menu-drawer {
+  @apply absolute right-0 top-0 h-full w-72 bg-white shadow-2xl flex flex-col;
+}
+
+.mobile-menu-header {
+  @apply flex items-center justify-between p-6 border-b border-forest-50;
+}
+
+.mobile-nav-link {
+  @apply flex items-center gap-3 px-6 py-4 text-charcoal hover:bg-forest-50 hover:text-forest-900 font-medium transition-colors;
+}
+
+.mobile-nav-link-active {
+  @apply bg-forest-50 text-forest-900 border-r-4 border-forest-700;
+}
