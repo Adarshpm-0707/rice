@@ -32,7 +32,7 @@ export default async function ProductDetailPage({ params }) {
   }
 
   const isKaima = product.slug === 'biriyani-rice-kaima';
-  const displayImage = isKaima ? '/images/products/detail-kaima-rice.jpg' : product.image;
+  const displayImage = isKaima ? '/images/products/items/detail-kaima-rice.jpg' : product.image;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FBF8F5]">

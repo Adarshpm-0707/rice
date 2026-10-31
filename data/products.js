@@ -3,7 +3,7 @@ export const products = [
     slug: 'biriyani-rice-kaima',
     name: 'Biriyani Rice - Kaima',
     category: 'Rice',
-    image: '/images/products/biriyani-rice-kaima.jpg',
+    image: '/images/products/items/biriyani-rice-kaima.jpg',
     shortDescription: 'The traditional short-grain aromatic rice of Malabar biriyani.',
     description:
       'Premium aromatic rice traditionally used for authentic Kerala-style biriyani. Carefully sourced and quality checked for consistent grain size and taste.',
@@ -28,7 +28,7 @@ export const products = [
     slug: 'vadi-matta-jyothi',
     name: 'Vadi Matta (Jyothi)',
     category: 'Rice',
-    image: '/images/products/vadi-matta-jyothi.jpg',
+    image: '/images/products/items/vadi-matta-jyothi.jpg',
     shortDescription: 'Red parboiled Jyothi rice — hearty, nutty, and high in fibre.',
     description:
       'Vadi Matta is the beloved everyday red rice of Kerala households, with the Jyothi variety being among the most popular for its balanced flavour, firm texture, and high nutritional value.',
@@ -53,7 +53,7 @@ export const products = [
     slug: 'kuruva-rice',
     name: 'Kuruva Rice',
     category: 'Rice',
-    image: '/images/products/kuruva-rice.jpg',
+    image: '/images/products/items/kuruva-rice.jpg',
     shortDescription: 'Traditional red Kerala rice with rich flavour for daily meals.',
     description:
       'Kuruva is a traditional Kerala rice variety known for its robust red bran, hearty taste, and excellent keeping quality. A staple choice for wholesale buyers.',
@@ -78,7 +78,7 @@ export const products = [
     slug: 'palakkadan-matta',
     name: 'Palakkadan Matta',
     category: 'Rice',
-    image: '/images/products/palakkadan-matta.jpg',
+    image: '/images/products/items/palakkadan-matta.jpg',
     shortDescription: 'Bold, earthy red rice from Palakkad — thick, nutritious, filling.',
     description:
       'Palakkadan Matta originates from the sun-drenched plains of Palakkad. Renowned for its distinctive thick grain, earthy aroma, and rich micronutrient profile.',
@@ -103,7 +103,7 @@ export const products = [
     slug: 'sugar',
     name: 'Sugar',
     category: 'Sweeteners',
-    image: '/images/products/sugar.jpg',
+    image: '/images/products/items/sugar.jpg',
     shortDescription: 'Clean, free-flowing crystal sugar for food industry and retail.',
     description:
       'High-grade sulphurless crystal sugar conforming to BIS specifications. Clean, sparkling white, and free-flowing granules for institutional and commercial buyers.',
@@ -128,7 +128,7 @@ export const products = [
     slug: 'jaggery',
     name: 'Jaggery',
     category: 'Sweeteners',
-    image: '/images/products/jaggery.jpg',
+    image: '/images/products/items/jaggery.jpg',
     shortDescription: 'Natural unrefined cane jaggery rich in minerals and flavour.',
     description:
       'Traditional open-pan evaporated sugarcane jaggery retaining essential minerals and iron. Rich golden-caramel color and wholesome sweetness.',
@@ -153,7 +153,7 @@ export const products = [
     slug: 'coconut-oil',
     name: 'Coconut Oil',
     category: 'Edible Oils',
-    image: '/images/products/coconut-oil.jpg',
+    image: '/images/products/items/coconut-oil.jpg',
     shortDescription: 'Traditional Kerala cooking oil with rich aroma for frying and cooking.',
     description:
       'Pure expeller-pressed coconut oil derived from sun-dried ripe copra. Renowned for its golden hue, authentic taste, and traditional Kerala culinary aroma.',
@@ -178,7 +178,7 @@ export const products = [
     slug: 'virgin-coconut-oil',
     name: 'Virgin Coconut Oil',
     category: 'Edible Oils',
-    image: '/images/products/virgin-coconut-oil.jpg',
+    image: '/images/products/items/virgin-coconut-oil.jpg',
     shortDescription: 'Cold-pressed from fresh coconut milk, unrefined and rich in lauric acid.',
     description:
       'Cold-pressed Virgin Coconut Oil (VCO) extracted directly from fresh grated coconuts without heat or refining. Water-clear clarity, fresh coconut fragrance, and high lauric acid.',
@@ -203,7 +203,7 @@ export const products = [
     slug: 'kashmiri-chilli',
     name: 'Kashmiri Chilli',
     category: 'Spices',
-    image: '/images/products/kashmiri-chilli.jpg',
+    image: '/images/products/items/kashmiri-chilli.jpg',
     shortDescription: 'Deep vibrant red colour with mild gentle heat for Kerala gravies.',
     description:
       'Carefully selected whole sun-dried Kashmiri chillies celebrated for their intense natural ruby red color and gentle warmth. Cleaned and stem-sorted.',
@@ -226,9 +226,9 @@ export const products = [
   },
   {
     slug: 'toor-dal',
-    name: 'T Dal',
+    name: 'Toor Dal',
     category: 'Pulses & Dal',
-    image: '/images/products/toor-dal.jpg',
+    image: '/images/products/items/toor-dal.jpg',
     shortDescription: 'Double-polished yellow split Toor Dal for sambar and dal delicacies.',
     description:
       'Premium quality split pigeon peas (Toor Dal / Tuvar Dal). Machine-cleaned, unpolished/oiled options, uniform grain size, and quick cooking texture.',
@@ -251,9 +251,9 @@ export const products = [
   },
   {
     slug: 'moong-dal',
-    name: 'M Dal',
+    name: 'Moong Dal',
     category: 'Pulses & Dal',
-    image: '/images/products/moong-dal.jpg',
+    image: '/images/products/items/moong-dal.jpg',
     shortDescription: 'Split yellow Moong Dal — quick-cooking, gentle, and high in nutrition.',
     description:
       'Bright golden yellow split moong dal, dehusked and machine sorted. Light on digestion, cooks quickly into creamy textures for soups, payasam, and everyday curries.',
@@ -278,7 +278,7 @@ export const products = [
     slug: 'cherupayar',
     name: 'Cherupayar',
     category: 'Pulses & Dal',
-    image: '/images/products/cherupayar.jpg',
+    image: '/images/products/items/cherupayar.jpg',
     shortDescription: 'Whole green gram — a Kerala staple for thoran, curries, and sprouts.',
     description:
       'Whole green gram (mung beans) selected for uniform size and deep olive luster. Highly prized in traditional Kerala cuisine for cherupayar thoran and nutritious sprouting.',

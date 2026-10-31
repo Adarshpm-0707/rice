@@ -48,7 +48,7 @@ export default function ProductDetailModal({ product, onClose }) {
                 style={{ position: 'relative' }}
               >
                 <Image
-                  src={product.slug === 'biriyani-rice-kaima' ? '/images/products/detail-kaima-rice.jpg' : product.image}
+                  src={product.slug === 'biriyani-rice-kaima' ? '/images/products/items/detail-kaima-rice.jpg' : product.image}
                   alt={product.name}
                   fill
                   className="object-contain object-center"
